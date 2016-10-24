@@ -13,6 +13,8 @@
 		8423356F1DBDB7430067B3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423356D1DBDB7430067B3AD /* Main.storyboard */; };
 		842335711DBDB7430067B3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842335701DBDB7430067B3AD /* Assets.xcassets */; };
 		842335741DBDB7430067B3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842335721DBDB7430067B3AD /* LaunchScreen.storyboard */; };
+		8423357E1DBDBD9C0067B3AD /* BQTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423357C1DBDBD9C0067B3AD /* BQTimelineCell.m */; };
+		8423357F1DBDBD9C0067B3AD /* BQTimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423357D1DBDBD9C0067B3AD /* BQTimelineCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		842335701DBDB7430067B3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842335731DBDB7430067B3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842335751DBDB7430067B3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8423357B1DBDBD9C0067B3AD /* BQTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQTimelineCell.h; sourceTree = "<group>"; };
+		8423357C1DBDBD9C0067B3AD /* BQTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQTimelineCell.m; sourceTree = "<group>"; };
+		8423357D1DBDBD9C0067B3AD /* BQTimelineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BQTimelineCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		842335631DBDB7430067B3AD /* oc-timeline */ = {
 			isa = PBXGroup;
 			children = (
+				8423357B1DBDBD9C0067B3AD /* BQTimelineCell.h */,
+				8423357C1DBDBD9C0067B3AD /* BQTimelineCell.m */,
+				8423357D1DBDBD9C0067B3AD /* BQTimelineCell.xib */,
 				842335671DBDB7430067B3AD /* AppDelegate.h */,
 				842335681DBDB7430067B3AD /* AppDelegate.m */,
 				8423356A1DBDB7430067B3AD /* ViewController.h */,
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842335741DBDB7430067B3AD /* LaunchScreen.storyboard in Resources */,
+				8423357F1DBDBD9C0067B3AD /* BQTimelineCell.xib in Resources */,
 				842335711DBDB7430067B3AD /* Assets.xcassets in Resources */,
 				8423356F1DBDB7430067B3AD /* Main.storyboard in Resources */,
 			);
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8423356C1DBDB7430067B3AD /* ViewController.m in Sources */,
+				8423357E1DBDBD9C0067B3AD /* BQTimelineCell.m in Sources */,
 				842335691DBDB7430067B3AD /* AppDelegate.m in Sources */,
 				842335661DBDB7430067B3AD /* main.m in Sources */,
 			);
@@ -300,6 +310,7 @@
 				8423357A1DBDB7430067B3AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
